@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/jianshu2/static/js/main.ea04ba45.chunk.js",
-    "main.js.map": "/jianshu2/static/js/main.ea04ba45.chunk.js.map",
+    "main.js": "/jianshu2/static/js/main.cd4151b3.chunk.js",
+    "main.js.map": "/jianshu2/static/js/main.cd4151b3.chunk.js.map",
     "runtime-main.js": "/jianshu2/static/js/runtime-main.349e84a1.js",
     "runtime-main.js.map": "/jianshu2/static/js/runtime-main.349e84a1.js.map",
     "static/js/2.75a8d849.chunk.js": "/jianshu2/static/js/2.75a8d849.chunk.js",
     "static/js/2.75a8d849.chunk.js.map": "/jianshu2/static/js/2.75a8d849.chunk.js.map",
     "index.html": "/jianshu2/index.html",
-    "precache-manifest.d5b5bdbf4862a5b76135cba7101c4d12.js": "/jianshu2/precache-manifest.d5b5bdbf4862a5b76135cba7101c4d12.js",
+    "precache-manifest.117f7568a22fd42bafc4e2ffd1f920e4.js": "/jianshu2/precache-manifest.117f7568a22fd42bafc4e2ffd1f920e4.js",
     "service-worker.js": "/jianshu2/service-worker.js",
     "static/js/2.75a8d849.chunk.js.LICENSE.txt": "/jianshu2/static/js/2.75a8d849.chunk.js.LICENSE.txt",
     "static/media/download.png": "/jianshu2/static/media/download.1acffbe9.png"
@@ -15,6 +15,6 @@
   "entrypoints": [
     "static/js/runtime-main.349e84a1.js",
     "static/js/2.75a8d849.chunk.js",
-    "static/js/main.ea04ba45.chunk.js"
+    "static/js/main.cd4151b3.chunk.js"
   ]
 }
