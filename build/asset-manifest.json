@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/jianshu2/static/js/main.b22e9158.chunk.js",
+    "main.js.map": "/jianshu2/static/js/main.b22e9158.chunk.js.map",
+    "runtime-main.js": "/jianshu2/static/js/runtime-main.349e84a1.js",
+    "runtime-main.js.map": "/jianshu2/static/js/runtime-main.349e84a1.js.map",
+    "static/js/2.924de3cb.chunk.js": "/jianshu2/static/js/2.924de3cb.chunk.js",
+    "static/js/2.924de3cb.chunk.js.map": "/jianshu2/static/js/2.924de3cb.chunk.js.map",
+    "index.html": "/jianshu2/index.html",
+    "precache-manifest.cd42ea0fe7432029c4dcdb11852cdc68.js": "/jianshu2/precache-manifest.cd42ea0fe7432029c4dcdb11852cdc68.js",
+    "service-worker.js": "/jianshu2/service-worker.js",
+    "static/js/2.924de3cb.chunk.js.LICENSE.txt": "/jianshu2/static/js/2.924de3cb.chunk.js.LICENSE.txt",
+    "static/media/download.png": "/jianshu2/static/media/download.1acffbe9.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.349e84a1.js",
+    "static/js/2.924de3cb.chunk.js",
+    "static/js/main.b22e9158.chunk.js"
+  ]
+}
