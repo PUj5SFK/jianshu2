@@ -36,5 +36,18 @@ export const getList = () => {
 export const itemSwitch = (pages) => ({
   type: actionType.ITEM_SWITCH,
   pages,
+});
+
+export const HomeSwitch = () => ({
+  type: actionType.HOME_CLICK_ACTIVE,
+  value: false
+});
+
+export const DownloadSwitch = () => ({
+  type: actionType.DOWNLOAD_CLICK_ACTIVE,
+  value: true,
 })
+
+
+
 

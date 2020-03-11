@@ -7,7 +7,8 @@ const defaultState = fromJS({
   show:false,
   list:[],
   pages:0,
-  totalPage: 0
+  totalPage: 0,
+  showColor: false
 })
 
 export default (state = defaultState,action) => {
@@ -24,6 +25,10 @@ export default (state = defaultState,action) => {
       return state.set('list',action.data).set('totalPage',action.totalPage)
     case actionType.ITEM_SWITCH:
       return state.set('pages',action.pages)
+    case actionType.HOME_CLICK_ACTIVE:
+      return state.set('showColor',action.value)
+    case actionType.DOWNLOAD_CLICK_ACTIVE:
+      return state.set('showColor',action.value)
     default:
       return state
   } 

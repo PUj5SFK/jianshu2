@@ -170,6 +170,7 @@ export const Btn = styled.div`
     width: 80px;
     height: 38px;
     line-height: 24px;
+    cursor: pointer;
   }
   &.writing {
     width: 100px;

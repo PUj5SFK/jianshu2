@@ -50,7 +50,8 @@ class Header extends Component {
     
   }
   render() {
-    const {handleInputFocused, handleInputBlur, fcused, list, show_logIn, logOut} = this.props;
+    const {handleInputFocused, handleInputBlur, 
+      handleLinkHomeSwitch, handleLinkDownloadSwitch, fcused, list, show_logIn, logOut, showColor} = this.props;
     return (  
       <HeaderWrapper>
         <HeaderWidth>
@@ -59,13 +60,19 @@ class Header extends Component {
           </Link>       
           <NavWrapper>
             <Link to = '/'>
-          <NavItemLeft className = 'active'>
+          <NavItemLeft 
+          className = {showColor?'':'active'}
+          onClick={handleLinkHomeSwitch}
+          >
             <i className="iconfont">&#xe684;</i>
               首页
             </NavItemLeft>
           </Link>
           <Link to = '/download'>
-            <NavItemLeft >
+            <NavItemLeft 
+            className = {showColor?'active':''}
+            onClick={handleLinkDownloadSwitch}
+            >
               <i className="iconfont">&#xe639;</i>下载App
             </NavItemLeft>
           </Link>
@@ -108,6 +115,7 @@ const mapStateToProps = (state) => {
     pages: state.get('header').get('pages'),
     totalPage: state.get('header').get('totalPage'),
     show_logIn: state.get('login').get('show_logIn'),
+    showColor: state.get('header').get('showColor')
   }
 };
 
@@ -146,6 +154,12 @@ const mapDispatchToProps = (dispatch) => {
     },
     logOut() {
       dispatch(LogInActionCreater.logout());
+    },
+    handleLinkHomeSwitch() {
+      dispatch(actionCreater.HomeSwitch())
+    },
+    handleLinkDownloadSwitch() {
+      dispatch(actionCreater.DownloadSwitch())
     }
   }
 };
