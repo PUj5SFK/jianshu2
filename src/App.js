@@ -8,7 +8,7 @@ import LogIn from './pages/login';
 import Download from './pages/download';
 import Write from './pages/write';
 import { Provider } from 'react-redux';
-import { BrowserRouter as Router, Route} from 'react-router-dom';
+import { HashRouter as Router, Route} from 'react-router-dom';
 import store from './store';
 
 function App() {
